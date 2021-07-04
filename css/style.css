@@ -1,0 +1,143 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace; */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0 10px;
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  color: #333333;
+}
+
+.header {
+  margin-top: 40px;
+  margin-left: 77px;
+}
+
+.title {
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.main-content {
+  margin-top: 200px;
+  margin-bottom: 308px;
+  display: flex;
+  justify-content: center;
+}
+
+.box-img {
+  margin-right: 118px;
+  max-width: 540px;
+}
+
+.image {
+  width: 100%;
+}
+
+.content {
+  max-width: 580px;
+}
+
+.main-title {
+  margin: 0 0 36px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 94.78px;
+  letter-spacing: -1px;
+}
+
+.descr {
+  margin: 0 0 64px;
+  max-width: 381px;
+  font-weight: 400;
+  line-height: 35.54px;
+  color: #4f4f4f;
+  letter-spacing: -1px;
+}
+
+.btn {
+  padding: 24px 43px;
+  color: #fff;
+  background-color: #333333;
+  transition: background-color 0.3s ease-out;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #4e4c4c;
+}
+
+.footer {
+  text-align: center;
+}
+
+.information {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.author {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media (max-width: 1140px) {
+  .main-title {
+    margin-bottom: 30px;
+    font-size: 48px;
+    line-height: 71px;
+  }
+
+  .descr {
+    font-size: 18px;
+    line-height: 26.66px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .header {
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+  .main-content {
+    margin-top: 84px;
+    margin-bottom: 114px;
+    margin-left: 14px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-img {
+    margin: 0 44px;
+  }
+
+  .descr {
+    max-width: 328px;
+  }
+}
